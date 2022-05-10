@@ -108,9 +108,9 @@ class AlObject {
 	EntitySetName = '${this._camelizeName}s';
 	SourceTable = "${this._name}";
 	Editable = false;
-	InsertAllowed = false;
-	DelayedInsert = true;
-	DataAccessIntent = ReadOnly;
+    DelayedInsert = true;
+    DataAccessIntent = ReadOnly;
+    ODataKeyFields = systemID;
 	layout
 	{
 		area(Content)
